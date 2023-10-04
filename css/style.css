@@ -1,5 +1,19 @@
 .site-header{
   background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sitenav-wrapper{
+  display: flex;
+  align-items: center;
+}
+
+
+.sitenav-list{
+  display: flex;
+  list-style: none;
 }
 
 .sitenav-item{
@@ -27,6 +41,9 @@
 }
 
 .hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #252420; 
 }
 
@@ -71,6 +88,13 @@
   letter-spacing: 0.5px; 
 }
 
+.features-list{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+
 .features-item{
   width: 340px;
 }
@@ -92,6 +116,9 @@
 }
 
 .promo-inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #252420;
   color: #fff;
 }
@@ -133,6 +160,18 @@
   background-color: #F8F8F8;
 }
 
+.site-footer-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-footer-social-list{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
 .site-footer-social-link{
   width: 24px;
   height: 24px;
@@ -142,8 +181,14 @@
   height: 2px;
 }
 
+.site-footer-bottom{
+  display: flex;
+  justify-content: space-between;
+}
+
 .site-footer-list{
   width: 224px; 
+  list-style: none;
 }
 
 .site-footer-link{
@@ -154,4 +199,14 @@
   font-weight: 400;
   text-decoration: none;
   line-height: normal; 
+}
+
+
+
+
+.parent{
+  display: flex;
+  align-items: baseline;
+  background-color: lightseagreen;
+  flex-wrap: wrap;
 }

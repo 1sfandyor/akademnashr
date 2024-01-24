@@ -26,7 +26,7 @@ body{
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.5px; 
+  letter-spacing: 0.5px;
 }
 
 .container{
@@ -134,6 +134,7 @@ body{
 
 
 .hero{
+  position: relative;
   background-color: #252420; 
   padding: 80px 0;
 }
@@ -169,6 +170,9 @@ body{
 }
 
 .hero-img{
+  position: absolute;
+  right: 133px;
+  top: 40px;
   border-radius: 12px;
   width: 510px;
   height: 510px;
@@ -260,6 +264,7 @@ body{
 }
 
 .promo-inner{
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -305,6 +310,9 @@ body{
 }
 
 .promo-img{
+  position: absolute;
+  bottom: 64px;
+  right: 64px;
   width: 440px;
   height: 440px;
   border-radius: 12px; 
@@ -380,6 +388,7 @@ body{
 .site-footer-list:last-child{
   margin-right: 0;
 }
+
 .site-footer-link{
   color: #252420;
   font-family: var(--text-font); 

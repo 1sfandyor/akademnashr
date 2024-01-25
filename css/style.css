@@ -42,7 +42,6 @@ body{
   flex-grow: 1;
 }
 
-
 .site-header{
   border-top: 5px solid var(--accent-color);
   background-color: #fff;
@@ -62,6 +61,7 @@ body{
 .logo{
   display: block;
 }
+
 .site-header-logo-link:hover{
   opacity: 0.8;
 }
@@ -74,7 +74,6 @@ body{
   display: flex;
   align-items: center;
 }
-
 
 .sitenav-list{
   display: flex;
@@ -111,6 +110,7 @@ body{
 }
 
 .orange-btn{
+  display: inline-block;
   color: #FFF; 
   font-size: 13px;
   font-family: var(--text-font);
@@ -120,19 +120,18 @@ body{
   background-color: var(--accent-color); 
   text-decoration: none;
   padding: 12px 24px;
-  display: inline-block;
 }
 
 .orange-btn:hover{
   opacity: 0.8;
 }
 
-
 .orange-btn:active{
   opacity: 0.6;
 }
 
 
+/* HERO */
 .hero{
   position: relative;
   background-color: #252420; 
@@ -150,7 +149,6 @@ body{
   color: #fff;
   margin-right: 203px;
 }
-
 
 .hero-heading{
   font-size: 40px;
@@ -171,13 +169,14 @@ body{
 
 .hero-img{
   position: absolute;
-  right: 133px;
   top: 40px;
+  right: 133px;
   border-radius: 12px;
   width: 510px;
   height: 510px;
   box-shadow: 30px 30px 0 0 rgba(255, 117, 0, 0.5);
 }
+
 
 /* FEATURES SECTION */
 .features{
@@ -212,12 +211,10 @@ body{
   margin: 0;
 }
 
-
 .features-item{
   width: 340px;
   margin-right: 40px;
 }
-
 
 .features-item:last-child{
   margin-right: 0;
@@ -234,10 +231,8 @@ body{
   margin-bottom: 32px;
 }
 
-
 .features-img{
   border-radius: 12px;
-  
 }
 
 .features-title{
@@ -311,13 +306,12 @@ body{
 
 .promo-img{
   position: absolute;
-  bottom: 64px;
   right: 64px;
+  bottom: 64px;
   width: 440px;
   height: 440px;
   border-radius: 12px; 
 }
-
 
 /* SITE FOOTER */
 .site-footer{
@@ -347,7 +341,6 @@ body{
 .site-footer-social-item:last-child{
   margin-right: 0;
 }
-
 
 .site-footer-social-link{
   display: block;
@@ -384,7 +377,6 @@ body{
   margin-right: 68px;
 }
 
-
 .site-footer-list:last-child{
   margin-right: 0;
 }
@@ -408,38 +400,6 @@ body{
   color: var(--accent-color);
 }
 
-
 .site-footer-link:active{
   opacity: 0.6;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
